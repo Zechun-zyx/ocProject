@@ -1,0 +1,5 @@
+# Project exclude paths
+/ocCommon/target/
+/ocOperator/target/
+/ocPortal/target/
+/ocService/target/

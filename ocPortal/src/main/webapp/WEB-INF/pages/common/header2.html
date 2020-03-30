@@ -1,0 +1,18 @@
+<div class="f-header">
+    <div class="f-header-box clearfix">
+        <a href="${s.base}" class="logo" title="南中医在线学习平台"></a>
+        <nav class="header-nav">
+            <a href="http://localhost:8089/ocPortal_war/" class="header-nav-item">首 页</a>
+            <a href="${s.base}/course/list.html" class="header-nav-item">课程详情</a>
+            <a href="${s.base}/user/home.html" class="header-nav-item">个人中心</a>
+            <a href="http://localhost:8088/ocOperator_war/" target="_blank" class="header-nav-item"
+               style="width:100px;">后台管理</a>
+            <#--			<a href="http://m.ioswift.org" target="_blank" class="header-nav-item" style="width:100px;">M站</a>-->
+        </nav>
+    </div>
+</div>
+<script>
+    function reloadIndityImg(eleId) {
+        document.getElementById(eleId).src = CONTEXT_PATH + "/tools/identiry/code.html?ticket=" + Math.random();
+    }
+</script>
