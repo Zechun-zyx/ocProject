@@ -289,7 +289,6 @@
         <module>ocService</module>
         <module>ocPortal</module>
         <module>ocOperator</module>
-        <module>ocRest</module>
     </modules>
 
     <build>
