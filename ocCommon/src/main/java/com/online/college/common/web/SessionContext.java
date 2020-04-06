@@ -29,14 +29,14 @@ public class SessionContext {
     }
 
     public static Long getWxUserId(HttpServletRequest request) {
-        if (null != getWxAuthUser(request))
-            return getWxAuthUser(request).getUserId();
+        if (null != getWxAuthUser(request)){
+            return getWxAuthUser(request).getUserId();}
         return null;
     }
 
     public static String getWxUsername(HttpServletRequest request) {
-        if (null != getWxAuthUser(request))
-            return getWxAuthUser(request).getUsername();
+        if (null != getWxAuthUser(request)){
+            return getWxAuthUser(request).getUsername();}
         return null;
     }
 

@@ -37,6 +37,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ocCommon" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations-java5:19.0.0" level="project" />
     <orderEntry type="module" module-name="ocService" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.7" level="project" />

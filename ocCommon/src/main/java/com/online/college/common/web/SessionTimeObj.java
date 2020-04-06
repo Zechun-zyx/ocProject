@@ -5,7 +5,8 @@ package com.online.college.common.web;
  * Session中setAttribute的对象，加入了超时属性
  * 时间从创建对象开始；
  *
- * @author Brain
+ *
+ * @author Fire
  */
 public class SessionTimeObj {
 

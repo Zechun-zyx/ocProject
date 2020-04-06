@@ -8,8 +8,9 @@ import java.util.List;
  * 分页
  */
 public class TailPage<E> extends AbstractPage<E> {
+    //显示10个页码
 
-    protected int showPage = 10;//显示10个页码
+    protected int showPage = 10;
     protected List<Integer> showNums = new ArrayList<Integer>();
     protected boolean showDot = true;
 
@@ -84,6 +85,7 @@ public class TailPage<E> extends AbstractPage<E> {
         return showDot;
     }
 
+    @Override
     public int getPageTotalCount() {
         return this.pageTotalCount;
     }

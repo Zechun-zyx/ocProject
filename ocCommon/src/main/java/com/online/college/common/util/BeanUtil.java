@@ -381,7 +381,7 @@ public class BeanUtil {
     /**
      * 首字母变大写
      *
-     * @param args
+     * @param str
      */
     public static String upperCaseFirst(String str) {
         return Character.toUpperCase(str.charAt(0)) + str.substring(1, str.length());
@@ -390,7 +390,7 @@ public class BeanUtil {
     /**
      * 首字母变小写
      *
-     * @param args
+     * @param str
      */
     public static String lowerCaseFirst(String str) {
         return Character.toLowerCase(str.charAt(0)) + str.substring(1, str.length());

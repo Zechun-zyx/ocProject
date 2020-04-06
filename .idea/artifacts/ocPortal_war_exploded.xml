@@ -17,6 +17,7 @@
           <element id="archive" name="ocCommon-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="ocCommon" />
           </element>
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations-java5:19.0.0" />
           <element id="archive" name="ocService-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="ocService" />
           </element>

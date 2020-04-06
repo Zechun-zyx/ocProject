@@ -142,6 +142,7 @@ public class AuthUser extends BaseEntity implements SessionUser {
         this.realname = realname;
     }
 
+    @Override
     public String getUsername() {
         return username;
     }
