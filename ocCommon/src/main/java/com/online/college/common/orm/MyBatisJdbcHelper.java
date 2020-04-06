@@ -123,7 +123,7 @@ public class MyBatisJdbcHelper {
     public static <T> String deleteSql(Class<T> entityClass, boolean byId, QueryFilter filter) {
         String tableName = BeanUtil.getTableName(entityClass).toUpperCase();
         StringBuilder sql = new StringBuilder("DELETE FROM " + tableName);
-        if (byId) {//根据ID更新对象
+        if (byId) { //根据ID更新对象
             sql.append(" WHERE ID = #{param2.id} ");
         } else {//更新所有，或者根据条件更新对象
             if (filter != null) {
